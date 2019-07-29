@@ -1,0 +1,21 @@
+#speedButtons {
+	font-size: .8em;
+    float: right;
+    color: black;
+}
+
+#speedButtons > .btn {
+	padding: 2px;
+	width: 25px;
+    border: none;
+	background: white;
+    cursor: pointer;
+}
+
+#speedButtons > .btn:not(:first-child) {
+	border-left: 1px solid rgb(170, 170, 170);
+}
+
+#speedButtons > .btn.selected, #speedButtons > .btn:hover {
+	color: #888;
+}
